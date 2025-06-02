@@ -92,8 +92,8 @@
                                     <td class="h-px w-auto whitespace-nowrap">
                                         <div class="px-6 py-2">
                                             <span
-                                                class="font-semibold text-sm text-gray-800 dark:text-neutral-200">{{ $student->first_name }}
-                                                {{ $student->last_name }} </span>
+                                                class="font-semibold text-sm text-gray-800 dark:text-neutral-200">{{ $student->last_name }}
+                                                {{ $student->first_name }} </span>
                                             {{-- <span class="text-xs text-gray-500 dark:text-neutral-500">(23.16%)</span> --}}
                                         </div>
                                     </td>
