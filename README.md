@@ -2,7 +2,7 @@
 ### msv: 23010410
 ### Lớp: Thiết kế web nâng cao-1-3-24(COUR01.TH4)
 # 📚 Project: Attendance Tracking App
-Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê.
+#### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê.
 ---
 ## 🚀 Tính năng chính (Features Overview)
 ### 1. 🎭 User Roles & Authentication
