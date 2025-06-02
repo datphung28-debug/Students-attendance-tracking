@@ -115,4 +115,4 @@ php artisan serve
 | admin@example.com    | password    |
 | teacher@example.com    | password    |
 ---
-### ❗Có thể tạo tài khoản **admin** trong file AdminSeeder.php (database\seeders\AdminSeeder.php)
+#### ❗Có thể tạo tài khoản **admin** trong file AdminSeeder.php (database\seeders\AdminSeeder.php)
