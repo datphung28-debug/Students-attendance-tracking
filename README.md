@@ -71,14 +71,8 @@ composer install
 nmp install && npm rundev
 ```
 ### 3. Cấu hình **.env** và **Database**
-3.1  **Chỉnh sửa file `.env`**
-3.2  **Tạo APP_KEY:**
-```bash
-php artisan key:generate
-```
-3.3  **Cấu hình kết nối Database trong file `.env`:**
-Mở file `.env` và cập nhật các thông tin sau cho database của bạn.
-
+3.1  **Cấu hình kết nối Database trong file `.env`:**
+Mở file `.env` và cập nhật các thông tin sau cho database.
 ```dotenv
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -87,13 +81,15 @@ DB_DATABASE=laravel #Tên database (có thể tạo trên xampp, mysql,...
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-
+3.2  **Tạo APP_KEY:**
+```bash
+php artisan key:generate
+```
 3.4  **Chạy Migrations và Seeders:**
 Sau khi cấu hình database, chạy các lệnh sau để tạo bảng và điền dữ liệu mẫu:
 ```bash
 php artisan migrate:fresh --seed
 ```
-Lệnh này sẽ xóa các bảng cũ, tạo lại các bảng mới và điền dữ liệu mặc định
 ### 4. Hoặc có thể dùng **sqlite**
  4.1 **Chỉnh sửa file `.env`**
    ```dotenv
