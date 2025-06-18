@@ -61,10 +61,6 @@ class AttendancePage extends Component
         }
     }
 
-    public function exportToExcel()
-    {
-        return Excel::download(new AttendanceExport($this->year, $this->month, $this->grade), 'attendance.xlsx');
-    }
 
     public function render()
     {

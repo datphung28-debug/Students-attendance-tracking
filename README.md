@@ -98,6 +98,8 @@
 
 ---
 
+## Sơ đồ cấu trúc và sơ đồ thuật toán
+
 ## 🧪 Hướng dẫn chạy project (Local Development)
 
 ### 1. Clone project
@@ -123,7 +125,7 @@ Mở file `.env` và cập nhật các thông tin sau cho database.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravel #Tên database (có thể tạo trên xampp, mysql,...
+DB_DATABASE=laravel #Tên database (có thể tạo trên xampp, mysql,...)
 DB_USERNAME=root
 DB_PASSWORD=
 ```
