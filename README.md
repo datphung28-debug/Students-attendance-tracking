@@ -1,12 +1,14 @@
-### Phùng Tiến Đạt
+### Phùng Tiến Đạt | MSV: 23010410
 
-### msv: 23010410
+### Nguyễn Đỗ Phi Hùng | MSV: 23010606
 
-### Lớp: Thiết kế web nâng cao-1-3-24(COUR01.TH4)
+### Lớp: Kỹ Thuật Phần Mềm (CSE702025)
 
-# 📚 Project: Attendance Tracking App
+# 📚 Project: Quản lý điểm danh (Students-attendance-tracking-system)
 
-#### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê.
+#### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê. <br>
+
+Các tài liệu liên quan đến project nằm tại [Documents](./Documents).
 
 ---
 
@@ -98,8 +100,6 @@
 
 ---
 
-## Sơ đồ cấu trúc và sơ đồ thuật toán
-
 ## 🧪 Hướng dẫn chạy project (Local Development)
 
 ### 1. Clone project
@@ -143,33 +143,18 @@ Sau khi cấu hình database, chạy các lệnh sau để tạo bảng và đi�
 php artisan migrate:fresh --seed
 ```
 
-### 4. Hoặc có thể dùng **sqlite**
-
-4.1 **Chỉnh sửa file `.env`**
-
-```dotenv
-DB_CONNECTION=sqlite
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=laravel
-# DB_USERNAME=root
-# DB_PASSWORD=
-```
-
-4.2 **Chạy Migrations và Seeders như ở trên**
-
-### 5. Chạy server
+### 4. Chạy server
 
 ```bash
 php artisan serve
 ```
 
-### 6. Account
+### 5. Account
 
-| Email               | Password |
-| ------------------- | -------- |
-| admin@example.com   | password |
-| teacher@example.com | password |
+| Email             | Password |
+| ----------------- | -------- |
+| admin@example.com | password |
+| test@example.com  | password |
 
 ---
 
