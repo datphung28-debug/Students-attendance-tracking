@@ -1,14 +1,10 @@
 ### Phùng Tiến Đạt | MSV: 23010410
 
-### Nguyễn Đỗ Phi Hùng | MSV: 23010606
-
-### Lớp: Kỹ Thuật Phần Mềm (CSE702025)
+### Lớp: Thiết kế web nâng cao (CSE702051-1-3-24(COUR01.TH4))
 
 # 📚 Project: Quản lý điểm danh (Students-attendance-tracking-system)
 
 #### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê. <br>
-
-Các tài liệu liên quan đến project nằm tại [Documents](./Documents).
 
 ---
 
@@ -21,35 +17,11 @@ Các tài liệu liên quan đến project nằm tại [Documents](./Documents).
     -   **Teacher**
 -   Tích hợp hệ thống **Authentication** đầy đủ: `Login`, `Register`, `Logout`
 
-#### 📸 Login
-
----
-
-![Trang Login](assets/login.png)
-
----
-
 ### 2. 🎓 Students & Grade Management
 
 -   **CRUD Students**: Thêm, Sửa, xoá, xem danh sách học sinh
 -   **CRUD Grades**: Quản lý lớp học (grades)
 -   **Phân bổ học sinh vào lớp** (Assign student to grades)
-
-#### 📸 Students management
-
----
-
-![Trang Student management](assets/student-mangagement.png)
-
----
-
-#### 📸 Grades management
-
----
-
-![Trang Grade management](assets/grades-management.png)
-
----
 
 ### 3. 🕒 Attendance Management
 
@@ -79,14 +51,6 @@ Các tài liệu liên quan đến project nằm tại [Documents](./Documents).
 
 -   Trang tổng quan thống kê: Tỷ lệ điểm danh, tình trạng học sinh
 
-#### 📸 Dashboard
-
----
-
-![Trang Dashboard](assets/dashboard.png)
-
----
-
 ## ⚙️ Công nghệ sử dụng
 
 | Công nghệ        | Mô tả                                    |
@@ -97,6 +61,24 @@ Các tài liệu liên quan đến project nằm tại [Documents](./Documents).
 | Tailwind CSS     | CSS framework dùng để thiết kế UI        |
 | MySQL - sqlite   | Hệ quản trị cơ sở dữ liệu                |
 | Laravel Breeze   | Gói authentication cho Laravel           |
+
+---
+
+## Sơ đồ cấu trúc và sơ đồ thuật toán
+
+-   📸 Class Diagram
+
+---
+
+![classDiagram](assets/classDiagram.png)
+
+---
+
+-   📸 Activity Diagram
+
+---
+
+![Activity Diagram](assets/activityDiagram2.png)
 
 ---
 
