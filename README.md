@@ -1,12 +1,10 @@
-### Phùng Tiến Đạt
+### Phùng Tiến Đạt | MSV: 23010410
 
-### msv: 23010410
+### Lớp: Thiết kế web nâng cao (CSE702051-1-3-24(COUR01.TH4))
 
-### Lớp: Thiết kế web nâng cao-1-3-24(COUR01.TH4)
+# 📚 Project: Quản lý điểm danh (Students-attendance-tracking-system)
 
-# 📚 Project: Attendance Tracking App
-
-#### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê.
+#### Hệ thống quản lý điểm danh được phát triển bằng **Laravel** kết hợp với **Livewire**, hỗ trợ quản lý học sinh, lớp học, điểm danh và theo dõi thống kê. <br>
 
 ---
 
@@ -19,35 +17,11 @@
     -   **Teacher**
 -   Tích hợp hệ thống **Authentication** đầy đủ: `Login`, `Register`, `Logout`
 
-#### 📸 Login
-
----
-
-![Trang Login](assets/login.png)
-
----
-
 ### 2. 🎓 Students & Grade Management
 
 -   **CRUD Students**: Thêm, Sửa, xoá, xem danh sách học sinh
 -   **CRUD Grades**: Quản lý lớp học (grades)
 -   **Phân bổ học sinh vào lớp** (Assign student to grades)
-
-#### 📸 Students management
-
----
-
-![Trang Student management](assets/student-mangagement.png)
-
----
-
-#### 📸 Grades management
-
----
-
-![Trang Grade management](assets/grades-management.png)
-
----
 
 ### 3. 🕒 Attendance Management
 
@@ -77,14 +51,6 @@
 
 -   Trang tổng quan thống kê: Tỷ lệ điểm danh, tình trạng học sinh
 
-#### 📸 Dashboard
-
----
-
-![Trang Dashboard](assets/dashboard.png)
-
----
-
 ## ⚙️ Công nghệ sử dụng
 
 | Công nghệ        | Mô tả                                    |
@@ -95,6 +61,24 @@
 | Tailwind CSS     | CSS framework dùng để thiết kế UI        |
 | MySQL - sqlite   | Hệ quản trị cơ sở dữ liệu                |
 | Laravel Breeze   | Gói authentication cho Laravel           |
+
+---
+
+## Sơ đồ cấu trúc và sơ đồ thuật toán
+
+-   📸 Class Diagram
+
+---
+
+![classDiagram](assets/classDiagram.png)
+
+---
+
+-   📸 Activity Diagram
+
+---
+
+![Activity Diagram](assets/activityDiagram2.png)
 
 ---
 
@@ -123,7 +107,7 @@ Mở file `.env` và cập nhật các thông tin sau cho database.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=laravel #Tên database (có thể tạo trên xampp, mysql,...
+DB_DATABASE=laravel #Tên database (có thể tạo trên xampp, mysql,...)
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -141,33 +125,18 @@ Sau khi cấu hình database, chạy các lệnh sau để tạo bảng và đi�
 php artisan migrate:fresh --seed
 ```
 
-### 4. Hoặc có thể dùng **sqlite**
-
-4.1 **Chỉnh sửa file `.env`**
-
-```dotenv
-DB_CONNECTION=sqlite
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=laravel
-# DB_USERNAME=root
-# DB_PASSWORD=
-```
-
-4.2 **Chạy Migrations và Seeders như ở trên**
-
-### 5. Chạy server
+### 4. Chạy server
 
 ```bash
 php artisan serve
 ```
 
-### 6. Account
+### 5. Account
 
-| Email               | Password |
-| ------------------- | -------- |
-| admin@example.com   | password |
-| teacher@example.com | password |
+| Email             | Password |
+| ----------------- | -------- |
+| admin@example.com | password |
+| test@example.com  | password |
 
 ---
 
